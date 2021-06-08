@@ -5,9 +5,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.todo-container {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8;
+  height: 100px;
+  width: 100%;
+}
+
+.todo-input{
+  height: 80px;
+  width:60%;
+  border-radius: 8px;
+  font-size: 30px;
+}
+.todo-submit {
+  height: 55px;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+
+.todo-card {
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
 }
